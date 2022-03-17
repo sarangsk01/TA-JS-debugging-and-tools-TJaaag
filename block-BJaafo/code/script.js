@@ -18,7 +18,7 @@ function getTaxAmount(amount,taxRate){
 let result3 = getTaxAmount(100);
 let expected3 = 105;
 if(result3 !== expected3){
- throw new Error(`${result3} is not equal to ${expected3}`);
+ throw new Error("${result3} is not equal to ${expected3}");
  }
  let result4 = getTaxAmount(100,5);
 let expected4 = 105;
