@@ -4,7 +4,7 @@ function getTwoNumbers(firstName,lastName){
 let result = getTwoNumbers("John");
 let expected = 'John Snow';
 if(result !== expected){
-    throw new Error(`${result} is not equal to ${expected}`);
+    throw new Error("${result} is not equal to ${expected}");
 }
 let result2 = getTwoNumbers("John","Snow");
 let expected2 = "John Snow";
